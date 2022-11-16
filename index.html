@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverso da Loucura</title>
+<link rel="stylesheet" href="./src/css/variaveis.css" />
+<link rel="stylesheet" href="./src/css/reset.css" />
+<link rel="stylesheet" href="./src/css/fontes.css" />
+<link rel="stylesheet" href="./src/css/animacoes.css" />
+<link rel="stylesheet" href="./src/css/responsivo.css" />
+<link rel="stylesheet" href="./src/css/estilos.css" />
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                SELECT YOUR FIGHTER
+            </h1>
+        </header>
+
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/batman-arkham-verse.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Batman Arkham Verse</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="batman-arkham-verse" data-name="Batman (Arkham Verse)">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/batman-arkham-verse.jpg" onclick="playAudio('./src/themes/arkham.mp3')" alt="Personagem Batman (Arkham Verse)">
+                    
+                </li>
+
+                <li class="personagem" id="captain-america-mcu" data-name="Captain America (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/captain-america-mcu.jpg" onclick="playAudio('./src/themes/captain-america-steve-rogers.mp3')"  alt="Personagem Captain America (MCU)">
+                </li>
+
+                <li class="personagem" id="captain-america-sam-wilson" data-name="Captain America (Sam Wilson)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/captain-america-sam-wilson.jpg" onclick="playAudio('./src/themes/captain-america-sam-wilson.mp3')" alt="Personagem Captain America (Sam Wilson)">
+                </li>
+
+                <li class="personagem" id="darkseid-snyder-verse" data-name="Darkseid (Snyder Verse)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/darkseid-snyder-verse.jpg" onclick="playAudio('./src/themes/darkseid.mp3')" alt="Personagem Darkseid (Snyder Verse)">
+                </li>
+
+                <li class="personagem" id="doctor-strange-mcu" data-name="Doctor Strange (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/doctor-strange-mcu.jpg" onclick="playAudio('./src/themes/strange.mp3')" alt="Personagem Doctor Strange (MCU)">
+                </li>
+
+                <li class="personagem" id="iron-man-mcu" data-name="Iron Man (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/iron-man-mcu.jpg" onclick="playAudio('./src/themes/iron-man.mp3')" alt="Personagem Iron Man (MCU)">
+                </li>
+
+                <li class="personagem" id="nightwing-titans-verse" data-name="Nigthwing (Titans Verse)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/nightwing-titans-verse.jpg" onclick="playAudio('./src/themes/nightwing.mp3')" alt="Personagem Nightwing (Titans Verse)">
+                </li>
+
+                <li class="personagem" id="scarlet-witch-mcu" data-name="Scarlet Witch (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/scarlet-witch-mcu.jpg" onclick="playAudio('./src/themes/scarlet-witch.mp3')" alt="Personagem Scarlet Witch (MCU)">
+                </li>
+
+                <li class="personagem" id="spider-man-mcu" data-name="Spider Man (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/spider-man-mcu.jpeg" onclick="playAudio('./src/themes/spiderman-mcu.mp3')" alt="Personagem Spider Man (MCU)">
+                </li>
+
+                <li class="personagem" id="spider-man-universe-1048" data-name="Spider Man (Universe 1048)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/spider-man-universe-1048.jpg" onclick="playAudio('./src/themes/spiderman.mp3')" alt="Personagem Spider Man (Universe 1048)">
+                </li>
+
+                <li class="personagem" id="superman-snyder-verse-black" data-name="Superman (Snyder Verse)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/superman-snyder-verse-black.jpg" onclick="playAudio('./src/themes/superman.mp3')" alt="Personagem Superman (Snyder Verse)">
+                </li>
+
+                <li class="personagem" id="thanos-mcu" data-name="Thanos (MCU)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/thanos-mcu.jpg" onclick="playAudio('./src/themes/thanos.mp3')" alt="Personagem Thanos (MCU)">
+                </li>
+
+                <li class="personagem" id="the-batman-reeves-verse" data-name="The Batman (Reeves Verse)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/the-batman-reeves-verse.jpeg" onclick="playAudio('./src/themes/batman.mp3')" alt="Personagem The Batman (Reeves Verse)">
+                </li>
+
+                <li class="personagem" id="thor-mcu" data-name="Thor (MCU)">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/thor-mcu.jpg" onclick="playAudio('./src/themes/thor.mp3')" alt="Personagem Thor (MCU)">
+                </li>
+
+                <li class="personagem" id="wonder-woman-snyder-verse" data-name="Wonder Woman (Snyder Verse)">
+                        <span class="tag">1P</span>
+                        <img src="./src/imagens/wonder-woman-snyder-verse.jpg" onclick="playAudio('./src/themes/wonder-woman.mp3')" alt="Personagem Wonder Woman (Snyder Verse)">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id= "homelander" data-name="homelander">
+                        <span class="tag">2P</span>
+                        <img src="./src/imagens/homelander.jpeg" onclick="playAudio('./src/themes/homelander.mp3')" alt="Personagem homelander">
+                </li>
+
+            </ul>
+        
+        <div class="personagem-grande personagem-jogador-2">
+            <img src="./src/imagens/homelander.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+            <div class="nome">
+                <h2>homelander</h2>
+            </div>
+        </div>
+    </div>
+ </main>
+
+ 
+
+ <script src="./src/js/index.js"></script>
+
+
+
+</body>
+</html>
